@@ -51,7 +51,7 @@ const apiCall = () => {
                 var categoriesData = '';
                 objKey?.forEach((key, index) => {
                     categoriesData += `
-                        <div class="categories-container">
+                        <div class="categories-container" style="display: none;">
                             <div class="categories-titleContainer">
                                 <div class="categories-title">
                                     <h4>${key} Game</h4>
